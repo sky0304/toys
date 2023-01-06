@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/commodity.css">
+    <link rel="stylesheet" href="../assets/css/topnew.css">
+    <link rel="stylesheet" href="../assets/css/star.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="site-identity">
+            <h1><a href="../index.html">
+                <img src="../assets/images/logo.jpg" height="60" width="120">
+            </a></h1>
+        </div>
+        <nav class="site-navigation">
+            <ul class="drop-down-menu">
+                <li><a href="#">主題</a>
+                    <ul>
+                        <li><a href="../pages/home.html #toy3">玩具總動員</a></li>
+                        <li><a href="../pages/home.html #toy2">汽車總動員</a></li>
+                        <li><a href="../pages/home.html #toy1">怪獸電力公司</a></li>
+                    </ul>
+                </li>
+                <li><a href="../pages/about.html">關於我們</a></li>
+                <li><a href="../pages/Store-in.html">商店介紹</a></li>
+                <li><a href="../pages/login.html">會員專區</a></li>
+                <li><a href="../pages/shppping cart.html">購物車</a></li>
+                <input type="text" placeholder="search" name="search" style="border: black 3px solid;border-radius: 10px;">
+                <li><a href="#"><img src="../assets/images/search.png" alt=""width="40"height="40"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1 class="bigword">怪獸電力公司</h1>
+        <hr class="hr-edge">
+        <div class="bd">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="../assets/images/毛怪1.JPG" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="../assets/images/毛怪2.JPG" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="../assets/images/毛怪3.JPG" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+            <br>
+            <script src="../assets/js/pageslide.js">   </script>
+            <div class="bdtext">
+                <h1>詹姆士·蘇利文(毛怪)</h1>
+                <hr class="hrst">
+                <h2>角色介紹</h2>
+                <p>是一隻體型龐大並長滿藍色長毛，頭上有兩個尖角，身上有紫色斑塊，心地善良友好的怪獸。<br>
+                    雖然他在工作上非常擅長（嚇唬孩子），但本質上卻很善良和體貼，個性外向，樂觀。</p>
+            </div>
+
+            <!--價錢-->
+
+            <div class="money">
+                <p>$250</p>
+            </div>
+
+            <!--星星符號-->
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div><br>
+
+            <!--數量按鈕-->
+
+            <div class="wrapper">
+                <span class="minus">-</span>
+                <span class="num">01</span>
+                <span class="plus">+</span>
+            </div><br><br>
+            <script src="../assets/js/number.js">
+
+            </script>
+
+            <!--購物車按鈕-->
+            <div>
+                <input type="button" class="shopping" value="加入購物車" onclick="">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="commentspace">
+        <h1 class="title">留下評論</h1>
+        <div class="content">
+            <span class="red">*</span>
+            <span class="total-star">總體評價：</span>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <span class="stars">評分</span>
+        </div>
+        <br>
+        <div class="comment">
+            <textarea name="" id="" cols="70" rows="10" placeholder="留下您對於產品的評論"></textarea>
+            <br>
+            <input type="submit" class="sent" value="送出評論" >
+        </div>
+        <script src="../assets/js/star.js"></script>
+    </section>
+    <section class="commentspace">
+        <h1 class="title">商品評價</h1>
+        <hr>
+        <img src="../assets/images/people.png" alt="" width="10%" >
+        <p >甲蔓蔓</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <br>
+        <p>毛怪超可愛的❤️❤️❤️</p> 
+        <hr>
+        <img src="../assets/images/people.png" alt="" width="10%" >
+        <p >乙璜璜</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <br>
+        <p>出貨要多久??😡 只能給6顆星</p> 
+
+    </section>
+
+
+    </div>
+
+    <footer>
+        Copyright ©2022 吾toy版權所有
+    </footer>
+
+
+</body>
+
+</html>
